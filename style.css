@@ -1,4 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #212226;
+}
+
+/*=============================
+
+        Header
+
+==============================*/
+
+#header {
+    height: 100vh;
+    background-image: url(img/background.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    margin: 0 100px 0 100px;
+}
+
+.logo {
+    margin-top: 30px;
+    width: 100px;
+}
+
+.header-text {
+    max-width: 350px;
+    margin-top: 70px
+}
+
+.header-text h1 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.header-text p {
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #777;
+
+}
+
+.square {
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: #f67c92;
+    margin-bottom: 15px;
+}
+
+.general-btn {
+    padding: 15px 35px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f67c92;
+    font-weight: 500;
+    cursor: pointer;
+    color: #f67c92;
+}
+
+.header-text button {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.line {
+    line-height: 8px;
+}
+.line-1 {
+    width: 15px;
+    height: 15px;
+    background: #f67c92;
+    display: inline-block;
+}
+
+.line-2 {
+    width: 180px;
+    height: 1px;
+    background: #f67c92;
+    display: inline-block;
+}
+
+.line-3 {
+    width: 90px;
+    height: 1px;
+    background: #f67c92;
+    display: inline-block;
 }
