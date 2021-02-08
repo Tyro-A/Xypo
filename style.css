@@ -41,7 +41,7 @@
 .header-text p {
     margin-bottom: 20px;
     font-size: 15px;
-    line-height: 18px;
+    line-height: 25px;
     color: #777;
 
 }
@@ -136,10 +136,10 @@ nav ul li a {
 }
 
 /*=============================
-        About
+        About and Offer
 ==============================*/
 
-#about {
+#about, #offer {
     padding: 100px 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -175,15 +175,15 @@ nav ul li a {
     font-style: italic;
 }
 
-.about-text h3 {
+.about-text h3{
     margin: 20px;
     font-style: italic;
     color: #797979;
 }
-.about-text p {
+.about-text p{
     margin-bottom: 20px;
     font-size: 15px;
-    line-height: 18px;
+    line-height: 25px;
     color: #777;
 }
 
@@ -240,6 +240,99 @@ nav ul li a {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+}
+
+/*=============================
+        Courses
+==============================*/
+#courses {
+    padding: 100px 0;
+}
+.course-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.course-right-col {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+}
+.course-right-col img {
+    width: 100%;
+}
+.course-left-col {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+}
+.course-text {
+    max-width: 350px;
+}
+
+.course-text button {
+    margin: 30px 0;
+}
+.course-text h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.course-text p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #777;
     
 }
+
+
+/*=============================
+        Offer
+==============================*/
+
+#offer {
+    padding: 100px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.offer-left-col {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+}
+.offer-left-col img {
+    width: 100%;
+}
+.offer-right-col {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    text-align: right;
+}
+.offer-text {
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.offer-text p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #777;
+}
+
+.offer-text h1 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
 
