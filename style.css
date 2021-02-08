@@ -64,11 +64,16 @@
     font-weight: 500;
     cursor: pointer;
     color: #f67c92;
-}
-
-.header-text button {
     margin-top: 20px;
     margin-bottom: 60px;
+    -webkit-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+
+.general-btn:hover,
+.general-btn:focus {
+    background: #f67c92;
+    color: #fff;
 }
 
 .line {
