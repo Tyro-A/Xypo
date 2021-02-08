@@ -46,6 +46,11 @@
 
 }
 
+.header-text button{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
 .square {
     height: 12px;
     width: 12px;
@@ -85,14 +90,13 @@
 }
 
 .line-2 {
-    width: 180px;
+    width: 80px;
     height: 1px;
     background: #f67c92;
     display: inline-block;
 }
-
 .line-3 {
-    width: 90px;
+    width: 60px;
     height: 1px;
     background: #f67c92;
     display: inline-block;
@@ -188,5 +192,54 @@ nav ul li a {
     margin-bottom: 20px;
 }
 
+/*=============================
+        Features
+==============================*/
+#features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.feature-row {
+    width: 80%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.feature-col {
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    text-align: center;
+}
 
+.feature-col img {
+    width: 100px;
+}
+.feature-col h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.feature-btn {
+    margin: 40px auto 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    
+}
 
